@@ -77,10 +77,11 @@ li:hover{
 
 .education-container{
     width: 80%;
-    height: auto;
+    height: 100vh;
     float: right;
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid gray;
 
 }
 
@@ -90,4 +91,23 @@ li:hover{
     padding: 0%;
     font-size: 90px;
     font-family: "saira condensed";
+}
+
+.skills-container{
+
+    width: 80%;
+    height: 100vh;
+    float: right;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skills-title{
+    margin-top: 60px;
+    margin-left: 50px;
+    padding: 0%;
+    font-size: 90px;
+    font-family: "saira condensed";
+
 }
