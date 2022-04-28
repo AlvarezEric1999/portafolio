@@ -1,0 +1,74 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+
+    width: 19%;
+    height: 100vh;
+    background-color: gray;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'mulish', sans-serif;
+    font-weight: 400;
+
+}
+
+li:hover{
+
+    color: black;
+    cursor: pointer;
+
+}
+
+
+.biografy-container{
+
+    width: 80%;
+    height: auto;
+    float: right;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.biografy-tittle{
+
+    margin-top: 90px;
+    margin-left: 50px;
+    padding: 0%;
+    font-size: 90px;
+    font-family: "saira condensed";
+}
+
+.biografy-subtittle{
+
+    margin-left: 50px;
+    padding: 0;
+    margin-top: -30px;
+    font-family: "saira condensed";
+    margin-bottom: 80px;
+
+
+}
+
+.biografy-parragrap{
+
+    margin-left: 50px;
+    line-height: 25px;
+    font-family: "Mulish" ,sans-serif;
+}
