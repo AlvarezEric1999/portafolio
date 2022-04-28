@@ -39,10 +39,11 @@ li:hover{
 .biografy-container{
 
     width: 80%;
-    height: auto;
+    height: 100vh;
     float: right;
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid gray;
 
 }
 
@@ -71,4 +72,22 @@ li:hover{
     margin-left: 50px;
     line-height: 25px;
     font-family: "Mulish" ,sans-serif;
+}
+
+
+.education-container{
+    width: 80%;
+    height: auto;
+    float: right;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.education-tittle{
+    margin-top: 60px;
+    margin-left: 50px;
+    padding: 0%;
+    font-size: 90px;
+    font-family: "saira condensed";
 }
