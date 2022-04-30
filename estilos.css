@@ -167,6 +167,54 @@ body{
     color: red;
 }
 
+
+
+.skills-container{
+
+    width: 90%;
+    margin: 0 auto;
+    height: 200px;
+    border-bottom: 1px solid gray;
+}
+
+
+
+
+.skills-items-container{
+
+
+    width: 90%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.skills-items-container i {
+
+    font-size: 80px;
+}
+
+.bxl-html5{
+
+    color: orange;
+}
+
+.bxl-css3{
+    color: aqua;
+}
+
+.bxl-javascript{
+    color: yellow;
+}
+
+
+.bxl-react{
+
+    color: navy;
+}
 @media(max-width:768px){
 
     
