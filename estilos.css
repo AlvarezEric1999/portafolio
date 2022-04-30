@@ -215,6 +215,42 @@ body{
 
     color: navy;
 }
+
+
+.education-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.education-container .education-title{
+    margin-top: 20px;
+    font-size: 30px;
+    
+    
+}
+
+.education-items-container{
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+
+}
+
+.education-items-container img{
+    width: 250px;
+    height:100px;
+
+}
+
+
+.education-items-container .logo-sena{
+
+    width: 200px;
+    height: 200px;
+}
 @media(max-width:768px){
 
     
