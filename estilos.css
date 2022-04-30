@@ -110,12 +110,13 @@ body{
 .about-container{
     width: 81%;
     float: right;
+    
 }
 
 .about-content{
     width: 90%;
     margin: 0 auto;
-    height: 90vh;
+    height: auto;
     border-bottom: 1px solid gray;
 }
 
@@ -130,6 +131,40 @@ body{
 
     margin-top: 30px;
     margin-bottom: 30px;
+    line-height: 25px;
+}
+
+
+.about-items-container{
+
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.about-items-container a{
+
+ font-size: 60px;
+ margin-right: 20px;
+
+
+
+}
+
+
+.about-items-container .bxl-linkedin-square{
+    color: gray;
+}
+
+.about-items-container .bxl-linkedin-square:hover{
+    color: blue;
+}
+
+.about-items-container .bxl-github{
+    color: gray;
+}
+
+.about-items-container .bxl-github:hover{
+    color: red;
 }
 
 @media(max-width:768px){
