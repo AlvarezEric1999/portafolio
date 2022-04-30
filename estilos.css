@@ -58,6 +58,7 @@ body{
 .nav-menu-item{
     font-size: 18px;
 
+    margin-top: 20px;
     
     text-transform: uppercase;
     width: max-content;
@@ -67,10 +68,26 @@ body{
 .nav-menu-link{
     padding: 8px 12px;
     border-radius: 5px;
+    position: relative;
 }
 
-.nav-menu-link:hover{
-    background-color: #034574;
+
+.nav-menu-link::after{
+    content: "";
+    width: 70%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+
+
+.nav-menu-link:hover::after{
+    transform: scaleX(1);
    
 
 
@@ -90,6 +107,30 @@ body{
 
 
 
+.about-container{
+    width: 81%;
+    float: right;
+}
+
+.about-content{
+    width: 90%;
+    margin: 0 auto;
+    height: 90vh;
+    border-bottom: 1px solid gray;
+}
+
+
+.about-title{
+    font-size: 90px;
+
+
+}
+
+.about-paragraph{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 @media(max-width:768px){
 
@@ -151,4 +192,30 @@ body{
 
     left: 0;
    }
+
+   .nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 5px;
+    
+}
+
+.nav-menu-link::after{
+    display: none;
+}
+ 
+.about-container{
+    width: 100%;
+    
+}
+
+.about-content{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-bottom: 1px solid gray;
+}
+
+
+
+
 }
