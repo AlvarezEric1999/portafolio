@@ -190,6 +190,12 @@ body{
     align-items: center;
 }
 
+.skills-title{
+
+    margin-top: 20px;
+    font-size: 30px;
+
+}
 
 
 .skills-items-container i {
@@ -329,12 +335,31 @@ body{
 
 .about-content{
     width: 90%;
+    min-width: 300px;
+    max-width: 700px;
     margin: 0 auto;
     margin-top: 30px;
     border-bottom: 1px solid gray;
 }
 
 
+.skills-items-container i {
 
+    font-size: 60px;
+}
+
+
+
+.education-items-container img{
+    width: 125px;
+    height:50px;
+
+}
+
+.education-items-container .logo-sena{
+
+    width: 100px;
+    height: 100px;
+}
 
 }
