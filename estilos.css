@@ -151,13 +151,7 @@ body{
 }
 
 
-.about-items-container .bxl-linkedin-square{
-    color: gray;
-}
 
-.about-items-container .bxl-linkedin-square:hover{
-    color:#0a66c2;
-}
 
 .about-items-container .bxl-github{
     color: gray;
@@ -257,6 +251,60 @@ body{
     width: 200px;
     height: 200px;
 }
+
+
+
+.contact-container{
+
+
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact--container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    
+   
+    border-radius: 10px;
+}
+
+.contact--container-left .contact--title{
+
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 40px;
+  
+}
+
+
+
+.contact-inputs{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact--container-left .bxl-linkedin-square{
+    color: gray;
+    font-size: 40px;
+}
+
+.contact--container-left .bxl-linkedin-square:hover{
+    color:#0a66c2;
+}
+
+
 @media(max-width:768px){
 
     
