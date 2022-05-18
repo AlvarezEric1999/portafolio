@@ -60,7 +60,7 @@ body{
 
     margin-top: 20px;
     
-    text-transform: uppercase;
+    text-transform: capitalize;
     width: max-content;
 }
 
@@ -248,6 +248,35 @@ color: white;
 .education-container{
     width: 90%;
     margin: 0 auto;
+}
+
+
+
+.proyect-container{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+
+}
+
+.proyect-items-container{
+    
+    display: grid;
+    justify-content: center;
+    place-items:center;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2,250px);
+    gap: 5px;
+    overflow: hidden;
+}
+
+.proyect-item-container{
+    text-align: center;
+}
+
+.proyect-item-container img{
+    width: 200px;
+    height: 200px;
 }
 
 .education-container .education-title{
