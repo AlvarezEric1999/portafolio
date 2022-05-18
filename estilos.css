@@ -1,3 +1,9 @@
+
+:root{
+    --primary-color:#2c3e50;
+}
+
+
 *{
 
     margin: 0;
@@ -259,14 +265,21 @@ color: white;
 
 }
 
+
+.proyect-title{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
 .proyect-items-container{
-    
+    margin-top: 20px;
     display: grid;
     justify-content: center;
     place-items:center;
     grid-template-columns: repeat(3,200px);
-    grid-template-rows: repeat(2,250px);
-    gap: 5px;
+    grid-template-rows: repeat(2,270px);
+    row-gap: 40px;
+    column-gap: 30px;
     overflow: hidden;
 }
 
@@ -274,9 +287,20 @@ color: white;
     text-align: center;
 }
 
+.proyect-item-container a {
+    display: block;
+    background:var(--primary-color);
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
 .proyect-item-container img{
     width: 200px;
-    height: 200px;
+    height: 220px;
 }
 
 .education-container .education-title{
@@ -434,8 +458,7 @@ color: white;
 }
  
 .about-container{
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .about-content{
@@ -460,8 +483,6 @@ color: white;
 
 
 .skills-items-container{
-
-
     width: 90%;
     margin: 0 auto;
     margin-top: 20px;
@@ -486,4 +507,14 @@ color: white;
     height: 100px;
 }
 
-}
+.proyect-items-container{
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    place-items:center;
+    grid-template-columns: repeat(1,200px);
+    grid-template-rows: repeat(3,270px);
+    row-gap: 40px;
+    column-gap: 30px;
+    overflow: hidden;
+}}
