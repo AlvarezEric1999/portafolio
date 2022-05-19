@@ -129,14 +129,20 @@ body{
 
 .about-title{
     font-size: 90px;
+    font-weight: 500;
+    font-family: 'Saira Condensed', sans-serif;
 
-
+}
+.about-content h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--primary-color);
 }
 
 .about-paragraph{
 
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     line-height: 25px;
 }
 
@@ -163,8 +169,10 @@ body{
     color: gray;
 }
 
-.about-items-container .bxl-github:hover{
-    color: red;
+.about-items-container .bxl-github{
+
+    font-size: 50px;
+    color: black;
 }
 
 
@@ -189,9 +197,9 @@ body{
     height: 300px;
     display: grid;
     justify-content: center;
-    gap: 5px;
-    grid-template-columns: repeat(3,200px);
-    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    grid-template-columns: repeat(7,130px);
+    grid-template-rows: auto;
     place-items: center;
 }
 
@@ -216,6 +224,7 @@ border-radius: 5px;
 width: 100%;
 padding: 10px 10px;
 color: white;
+box-shadow: 0 3px 10px gray;
 }
 
 .bxl-html5{
@@ -254,6 +263,7 @@ color: white;
 .education-container{
     width: 90%;
     margin: 0 auto;
+    border-bottom: 1px solid var(--primary-color);
 }
 
 
@@ -281,22 +291,35 @@ color: white;
     row-gap: 40px;
     column-gap: 30px;
     overflow: hidden;
+    padding-bottom :20px; ;
 }
 
 .proyect-item-container{
+    height: 270px;
     text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px;
+    overflow: hidden;
 }
 
 .proyect-item-container a {
     display: block;
-    background:var(--primary-color);
-    color: white;
-    border-radius: 15px;
+    height: 100%;
+    color: black;
+    
     padding: 5px;
     text-decoration: none;
     font-size: 14px;
 
 }
+
+.proyect-item-container a:hover {
+    color: white;
+    background-color: var(--primary-color);
+    transition: 0.5s;
+}
+
+
 
 .proyect-item-container img{
     width: 200px;
@@ -433,10 +456,7 @@ color: white;
     
     }
 
-    .nav-menu-item{
-        line-height: 70px;
-        margin-top: 20px;
-    }
+    
 
    .toggle{
        display: block;
@@ -471,7 +491,7 @@ color: white;
 }
 
 .about-title{
-    font-size: 60px;
+    font-size: 50px;
 
 
 }
